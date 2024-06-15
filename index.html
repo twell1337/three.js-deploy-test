@@ -9,12 +9,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.js"></script>
 
-<!-- pass shapes to main js -->
-<script>
-	const shapes = JSON.parse('{{shapes | safe}}');
-	console.log(shapes);
-</script>
-
+<!-- main js -->
 <script type="module" src="/static/shapes/main.js" defer></script>
 	
 <div id="scene-box"></div>
