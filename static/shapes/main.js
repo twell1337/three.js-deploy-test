@@ -88,7 +88,7 @@ const fragmentShader_color = `
     }
 `;
 
-const texture = new THREE.TextureLoader().load('static/shapes/textures/default.png');
+const texture = new THREE.TextureLoader().load('textures/default.png');
 /*nearest interpolation
 texture.minFilter = THREE.NearestFilter;
 texture.magFilter = THREE.NearestFilter;
@@ -126,7 +126,7 @@ let dog;
 // load a resource
 loader.load(
     // resource URL
-    "static/shapes/models/dog.gltf",
+    "models/dog.gltf",
     // called when resource is loaded
     function ( gltf ) {
         // Получаем сцену из загруженного объекта
